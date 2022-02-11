@@ -1,4 +1,7 @@
-def calc(x,y):
-    return(x+y)
-v = calc(25,22)
-print(v)
+import sys
+
+cm_distance = float(input("Enter the distance in cm: "))
+
+foot_distance = cm_distance/30,48
+
+print('Distance in foot: {}'.format(foot_distance))
